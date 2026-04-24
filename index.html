@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myntra Clone | Online Shopping for Women, Men, Kids Fashion & Lifestyle</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header/Navbar -->
+    <header class="header">
+        <div class="container navbar">
+            <div class="logo">
+                <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Myntra_Logo.png" alt="Myntra Logo"></a>
+            </div>
+            <nav class="nav-links">
+                <a href="#" class="nav-item">MEN</a>
+                <a href="#" class="nav-item">WOMEN</a>
+                <a href="#" class="nav-item">KIDS</a>
+                <a href="#" class="nav-item">HOME & LIVING</a>
+                <a href="#" class="nav-item">BEAUTY</a>
+                <a href="#" class="nav-item">STUDIO <sup>NEW</sup></a>
+            </nav>
+            <div class="search-bar">
+                <div class="search-input-container">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" id="search-input" placeholder="Search for products, brands and more">
+                </div>
+            </div>
+            <div class="user-actions">
+                <div class="action-item" id="profile-btn">
+                    <i class="fa-regular fa-user"></i>
+                    <span>Profile</span>
+                </div>
+                <div class="action-item" id="wishlist-btn">
+                    <i class="fa-regular fa-heart"></i>
+                    <span>Wishlist</span>
+                </div>
+                <div class="action-item" id="bag-btn">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span>Bag</span>
+                    <span id="bag-count" class="badge">0</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Banner Carousel -->
+        <section class="hero-carousel">
+            <div class="carousel-container">
+                <div class="carousel-slide active">
+                    <img id="hero-banner-1" src="" alt="Hero Banner 1">
+                </div>
+                <div class="carousel-slide">
+                    <img id="hero-banner-2" src="" alt="Hero Banner 2">
+                </div>
+                <div class="carousel-slide">
+                    <img id="hero-banner-3" src="" alt="Hero Banner 3">
+                </div>
+            </div>
+            
+            <!-- Carousel Navigation Buttons -->
+            <button class="carousel-btn prev" id="prev-slide"><i class="fa-solid fa-chevron-left"></i></button>
+            <button class="carousel-btn next" id="next-slide"><i class="fa-solid fa-chevron-right"></i></button>
+
+            <div class="carousel-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </section>
+
+
+        <!-- Shop by Category specialized grid -->
+        <section class="container categories-section">
+            <h1 class="main-title">Shop By Category</h1>
+            <div class="category-grid high-fidelity" id="category-grid">
+                <!-- Dynamically filled categories -->
+            </div>
+        </section>
+
+        <!-- Budget Friendly Picks -->
+        <section class="container budget-section">
+            <h1 class="main-title">Budget-Friendly Picks</h1>
+            <div class="budget-grid" id="budget-grid">
+                <!-- Dynamically filled budget picks -->
+            </div>
+        </section>
+
+        <!-- Deals section -->
+        <section class="container deals-section">
+            <h2 class="section-title">DEAL OF THE DAY</h2>
+            <div class="deals-grid" id="deals-grid">
+                <!-- Dynamically filled deals -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Sticky Coupon Tab -->
+    <div class="sticky-coupon">
+        <span>UPTO ₹300 OFF</span>
+        <div class="coupon-sub">On Your First Order</div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast">Added to bag!</div>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-column">
+                <h3>ONLINE SHOPPING</h3>
+                <ul>
+                    <li><a href="#">Men</a></li>
+                    <li><a href="#">Women</a></li>
+                    <li><a href="#">Kids</a></li>
+                    <li><a href="#">Home & Living</a></li>
+                    <li><a href="#">Beauty</a></li>
+                    <li><a href="#">Gift Cards</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>CUSTOMER POLICIES</h3>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">T&C</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Track Orders</a></li>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Cancellation</a></li>
+                    <li><a href="#">Returns</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>EXPERIENCE MYNTRA APP ON MOBILE</h3>
+                <div class="app-links">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" alt="App Store">
+                </div>
+                <h3>KEEP IN TOUCH</h3>
+                <div class="social-links">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom container">
+            <p>&copy; 2026 www.myntra.com. All rights reserved.</p>
+            <p style="margin-top: 10px; font-weight: 500; color: #282c3f;">Designed by Ram Nayak</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
