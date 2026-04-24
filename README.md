@@ -3,7 +3,7 @@
 A premium, high-fidelity Myntra clone built with modern web technologies. This project focuses on visual excellence, responsive design, and smooth user interactions to replicate the premium shopping experience of Myntra.
 
 ## 🚀 Live Demo
-*(You can host this on GitHub Pages and add the link here)*
+[https://myntra-clone-alpha-ten.vercel.app](https://myntra-clone-alpha-ten.vercel.app)
 
 ## ✨ Features
 - **Modern UI/UX**: Sleek, clean design using the Outfit font and premium color palettes.
@@ -34,7 +34,7 @@ myntra-clone/
 ## 🛠️ How to Run Locally
 1. Clone this repository:
    ```bash
-   git clone https://github.com/[YOUR_USERNAME]/myntra-clone.git
+   git clone https://github.com/Ram-Nayak-16/myntra-clone.git
    ```
 2. Navigate to the project folder:
    ```bash
@@ -44,8 +44,8 @@ myntra-clone/
 
 ## ✍️ Author
 **Ram Nayak**
-- [GitHub](https://github.com/[YOUR_USERNAME])
-- [LinkedIn](https://www.linkedin.com/in/[YOUR_PROFILE])
+- [GitHub](https://github.com/Ram-Nayak-16)
+- [LinkedIn](https://www.linkedin.com/in/ram-nayak-778800)
 
 ---
 *Disclaimer: This project is for educational purposes only. All images and logos belong to their respective owners.*
